@@ -264,6 +264,7 @@ body {
 
 .FAQ__visible > p {
   margin: 1rem 0;
+  padding: 1rem;
 }
 .FAQ__list__container {
   border-top: 8px solid #222;
@@ -504,7 +505,7 @@ footer {
     transform: translateX(16%);
   }
   footer {
-    padding: 2rem 25rem;
+    padding: 2rem 15rem;
     justify-content: flex-start;
     text-align: left;
     align-items: flex-start;
@@ -520,6 +521,17 @@ footer {
   .footer__row__3,
   .footer__row__4 {
     align-self: flex-start;
+  }
+  
+  .column__2,
+  .column__3,
+  .column__4{
+    
+    padding-left:10rem;
+  }
+  p{
+    
+    padding: 4px;
   }
    }
 @media(min-width:1256px) {
